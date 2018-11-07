@@ -1,0 +1,32 @@
+{
+  "name": "pw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V1shvesh/pw.git"
+  },
+  "author": "V1shvesh",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/V1shvesh/pw/issues"
+  },
+  "homepage": "https://github.com/V1shvesh/pw#readme",
+  "dependencies": {
+    "eslint": "^5.8.0",
+    "react": "^16.6.1",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
