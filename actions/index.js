@@ -5,13 +5,12 @@ export const SET_LINK = 'SET_LINK';
 export const MOVE_BLOCK = 'MOVE_BLOCK';
 
 // ACTION CREATORS
-export function addBlock(x, y, id) {
+export function addBlock(x, y) {
   return {
     type: ADD_BLOCK,
     attr: {
       x,
       y,
-      id,
     },
   };
 }
