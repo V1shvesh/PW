@@ -1,17 +1,18 @@
 // Imports
-const path = require('path');
-require('@babel/register');
 
 // Webpack Configuration
 const config = {
 
   // Entry
-  entry: './src/index.js',
+  entry: './src/index.jsx',
 
   // Output
   output: {
-    path: path.resolve(__dirname, './dist'),
     filename: 'pw.js',
+  },
+
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
 
   // Loaders
@@ -35,6 +36,9 @@ const config = {
   watch: true,
   // Development Tools (Map Errors To Source File)
   devtool: 'source-map',
+  devServer: {
+    contentBase: './dist',
+  },
 };
 
 // Exports
